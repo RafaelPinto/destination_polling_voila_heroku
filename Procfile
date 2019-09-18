@@ -1,1 +1,1 @@
-web: voila --port=$PORT --no-browser notebooks/destination_polling.ipynb
+web: voila --port=$PORT --enable_nbextensions=True --no-browser notebooks/destination_polling.ipynb
