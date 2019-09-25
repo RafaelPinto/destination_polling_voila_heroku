@@ -1,4 +1,5 @@
-ipywidgets
-ipyleaflet
-geocoder
+ipywidgets==7.5.1
+ipyleaflet==0.11.2
 voila==0.1.6
+geocoder==1.38.1
+psycopg2-binary
