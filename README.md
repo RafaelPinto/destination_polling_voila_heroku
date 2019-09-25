@@ -18,7 +18,7 @@ This application has 3 key features:
 
 1. A Jupyter Notebook serving as a webapp with Voila.
 
-2. Geolocation using ```gelocation``` library and LocationIQ API: For the geolocation to work you will need a key issued by LocationIQ. This is free and easy to setup. More on this on the **LocationIQ setup** subsection below.
+2. Geolocation using ```geolocation``` library and LocationIQ API: For the geolocation to work you will need a key issued by LocationIQ. This is free and easy to setup. More on this on the **LocationIQ setup** subsection below.
 
 3. We save the data to a Postgresql database. To get a local database use the steps in **Set up local Postgres** subsection below. This is great for testing locally before pushing your app to the world. For using (provisioning) Heroku's database read step 9 on section **Deployment steps** below.
 
@@ -90,8 +90,8 @@ However, in the development stage it is best to set up a local database for test
 7. Commit everything
    git commit -m "My awesome app on Heroku!"
 
-8. Create the Heroku app:
-   heroku create
+8. Create the Heroku app. We will name our app *destination-polling*, you can pick some other name if you prefer:
+   heroku create destination-polling
 
 9. Provision Heroku Postgres database: https://devcenter.heroku.com/articles/heroku-postgresql#provisioning-heroku-postgres
     
