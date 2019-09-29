@@ -25,7 +25,7 @@ This application has 3 key features:
 
 ## LocationIQ setup
 
-The are a lot of [geocoding providers](https://geocoder.readthedocs.io/index.html#providers) supported by the geocoder library. Our LocationIQ choice was made based on [minimal restrictions and setup requirements](https://locationiq.com/pricing) for a free account.
+There are a lot of [geocoding providers](https://geocoder.readthedocs.io/index.html#providers) supported by the geocoder library. Our LocationIQ choice was made based on [minimal restrictions and setup requirements](https://locationiq.com/pricing) for a free account.
 
 ### Restrictions
 
@@ -88,10 +88,10 @@ However, in the development stage it is best to set up a local database for test
 6. Edit the Procfile file by replacing notebooks/destination_polling_voila_heroku.ipynb with the path to your awesome Notebook
 
 7. Commit everything
-   git commit -m "My awesome app on Heroku!"
+   ```git commit -m "My awesome app on Heroku!"```
 
 8. Create the Heroku app. We will name our app *destination-polling*, you can pick some other name if you prefer:
-   heroku create destination-polling
+   ```heroku create destination-polling```
 
 9. Provision Heroku Postgres database: https://devcenter.heroku.com/articles/heroku-postgresql#provisioning-heroku-postgres
     
