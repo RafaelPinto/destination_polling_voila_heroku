@@ -36,7 +36,7 @@ As our geocoding requests will be submitted by people and not machines, we can c
 3. 2 requests /second 
 4. Street maps only: We won't use this.
 5. Limited commercial use: Our tool is not commercial.
-6. Cache results for upto 48 hours: At the end of each day we run ```heroku pg:reset followed``` by ```heroku run rake db:migrate``` to remove any geolocated data.
+6. Cache results for upto 48 hours: At the end of each day we run ```heroku pg:reset``` followed by ```heroku run rake db:migrate``` to remove any geolocated data.
 
 
 ### Setup requirements
